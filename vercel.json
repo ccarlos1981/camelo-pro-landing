@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/superadmin",
+      "destination": "https://webadmin-self.vercel.app",
+      "permanent": false
+    },
+    {
+      "source": "/superadmin/:path*",
+      "destination": "https://webadmin-self.vercel.app/:path*",
+      "permanent": false
+    }
+  ]
+}
