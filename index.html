@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Camelô Pro — Gestão Profissional para sua Barraca</title>
+  <meta name="description" content="Chega de caderninho! O Camelô Pro é o app que transforma sua barraca em negócio profissional. Controle estoque, vendas, fiado e lucro real na palma da mão." />
+  <meta property="og:title" content="Camelô Pro — Gestão para Vendedores de Rua" />
+  <meta property="og:description" content="App de gestão feito para quem vende na rua, box e camelódromo. 100% privado, sem complicação." />
+  <meta property="og:image" content="assets/images/logo.png" />
+  <link rel="icon" type="image/png" href="assets/images/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <img src="assets/images/logo.png" alt="Camelô Pro" />
+        <span>Camelô Pro</span>
+      </a>
+      <a href="#trial" class="btn btn-nav">Experimente Grátis</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="container hero-content">
+      <div class="hero-text">
+        <div class="badge">🚀 90 dias grátis para Lojistas Fundadores</div>
+        <h1>Chega de<br /><span class="gradient-text">caderninho.</span></h1>
+        <p class="hero-sub">
+          Controle sua barraca, box ou camelódromo direto do celular.<br />
+          Estoque, vendas, fiado e lucro real — sem complicação.
+        </p>
+        <div class="hero-actions">
+          <a href="#trial" id="btn-hero-primary" class="btn btn-primary btn-lg">
+            <svg width="20" height="20" fill="none" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9V8h2v8zm4 0h-2V8h2v8z" fill="currentColor"/></svg>
+            Baixar Agora — É Grátis
+          </a>
+          <a href="#como-funciona" id="btn-hero-secondary" class="btn btn-ghost btn-lg">Ver como funciona →</a>
+        </div>
+        <div class="hero-trust">
+          <div class="trust-item">✅ Sem cartão de crédito</div>
+          <div class="trust-item">✅ 90 dias gratuitos</div>
+          <div class="trust-item">✅ 100% privado</div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="phone-mockup">
+          <div class="phone-frame">
+            <div class="phone-screen">
+              <div class="app-ui">
+                <div class="app-header">
+                  <span class="app-greeting">Olá, Seu Manoel 👋</span>
+                  <span class="app-badge-trial">Trial: 87 dias</span>
+                </div>
+                <div class="app-cards">
+                  <div class="app-card green">
+                    <span class="app-card-label">Faturamento Hoje</span>
+                    <span class="app-card-value">R$ 1.850</span>
+                    <span class="app-card-delta">↑ 23% vs ontem</span>
+                  </div>
+                  <div class="app-card purple">
+                    <span class="app-card-label">Lucro Líquido</span>
+                    <span class="app-card-value">R$ 612</span>
+                    <span class="app-card-delta">Margem 33%</span>
+                  </div>
+                </div>
+                <div class="app-section-title">Vendas Recentes</div>
+                <div class="app-list">
+                  <div class="app-item"><span>🥤 Suco de Laranja</span><span class="price">R$ 8</span></div>
+                  <div class="app-item"><span>👕 Camisa Polo</span><span class="price">R$ 45</span></div>
+                  <div class="app-item"><span>🎧 Fone Bluetooth</span><span class="price">R$ 89</span></div>
+                </div>
+                <div class="app-nav">
+                  <div class="nav-item active">🏠</div>
+                  <div class="nav-item">📦</div>
+                  <div class="nav-item">💳</div>
+                  <div class="nav-item">📊</div>
+                  <div class="nav-item">⚙️</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="phone-glow"></div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-wave">
+      <svg viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 40 C360 80 1080 0 1440 40 L1440 80 L0 80 Z" fill="#0d0d0d"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- PROBLEMA -->
+  <section class="section problem" id="problema">
+    <div class="container">
+      <div class="problem-grid">
+        <div class="problem-photo">
+          <img src="assets/images/hero-photo.png" alt="Vendedora feliz com Camelô Pro" />
+          <div class="photo-card">
+            <span class="photo-card-emoji">📒→📱</span>
+            <span class="photo-card-text">Do caderninho para o digital</span>
+          </div>
+        </div>
+        <div class="problem-text">
+          <div class="section-label">A Realidade da Rua</div>
+          <h2>Você sabe quanto<br /><span class="gradient-text">lucrou hoje?</span></h2>
+          <p>A maioria dos vendedores de rua trabalha duro, vende bastante — mas no fim do dia não sabe o lucro real. O caderninho não conta transporte, almoço, nem o fiado do vizinho.</p>
+          <div class="pain-points">
+            <div class="pain-item">
+              <div class="pain-icon">😤</div>
+              <div>
+                <strong>Gestão no caderninho</strong>
+                <p>Dados perdidos, contas erradas, prejuízo invisível</p>
+              </div>
+            </div>
+            <div class="pain-item">
+              <div class="pain-icon">💸</div>
+              <div>
+                <strong>Precificação errada</strong>
+                <p>Sem contar custos reais, você vende barato sem saber</p>
+              </div>
+            </div>
+            <div class="pain-item">
+              <div class="pain-icon">🤝</div>
+              <div>
+                <strong>Fiado e empréstimos perdidos</strong>
+                <p>Dinheiro e mercadoria que saem e nunca voltam</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FUNCIONALIDADES -->
+  <section class="section features" id="como-funciona">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">O App</div>
+        <h2>Tudo que sua barraca<br /><span class="gradient-text">precisa</span></h2>
+        <p>Feito para quem tem as mãos ocupadas e não tem tempo a perder.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card" id="feat-scan">
+          <div class="feature-icon">📷</div>
+          <h3>Scan & Go</h3>
+          <p>Bipa o código de barras com a câmera e o produto entra no estoque. Sem digitar nada.</p>
+        </div>
+        <div class="feature-card featured" id="feat-pdv">
+          <div class="feature-badge">Mais usado</div>
+          <div class="feature-icon">💳</div>
+          <h3>PDV Simplificado</h3>
+          <p>Registre vendas com 1 toque. Escolha Pix ou Cartão — o preço muda automaticamente.</p>
+        </div>
+        <div class="feature-card" id="feat-fiado">
+          <div class="feature-icon">📋</div>
+          <h3>Caderno de Fiado Digital</h3>
+          <p>Registre fiadinho e empréstimos entre barracas. Receba alertas de quem está devendo.</p>
+        </div>
+        <div class="feature-card" id="feat-custo">
+          <div class="feature-icon">🧮</div>
+          <h3>Custo Real</h3>
+          <p>Inclua transporte, almoço e aluguel no cálculo. Descubra seu lucro real, não o ilusório.</p>
+        </div>
+        <div class="feature-card" id="feat-preco">
+          <div class="feature-icon">🏷️</div>
+          <h3>Preço Duplo</h3>
+          <p>Pix mais barato, Cartão com taxa embutida. Nunca mais pague a maquininha do seu bolso.</p>
+        </div>
+        <div class="feature-card" id="feat-privado">
+          <div class="feature-icon">🔒</div>
+          <h3>100% Privado</h3>
+          <p>Seu catálogo não fica exposto. Nenhum fiscal ou concorrente vê seus produtos ou preços.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PARA QUEM -->
+  <section class="section personas" id="para-quem">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">Para Quem É</div>
+        <h2>Feito para quem<br /><span class="gradient-text">vende na rua</span></h2>
+      </div>
+      <div class="personas-grid">
+        <div class="persona-card" id="persona-manoel">
+          <div class="persona-emoji">🌽</div>
+          <h3>Seu Manoel</h3>
+          <p class="persona-desc">Vendedor tradicional de rua. Pipoca, água, doces, recargas. Precisa de botões grandes e simplicidade real.</p>
+          <div class="persona-tags">
+            <span>Comida</span><span>Bebida</span><span>Recargas</span>
+          </div>
+        </div>
+        <div class="persona-card highlight" id="persona-juninho">
+          <div class="persona-emoji">📱</div>
+          <h3>Juninho do Box</h3>
+          <p class="persona-desc">Dono de box no Oiapoque ou Santa Ifigênia. High-tech, alto giro, precisa de controle cirúrgico de estoque.</p>
+          <div class="persona-tags">
+            <span>Eletrônicos</span><span>Roupas</span><span>Acessórios</span>
+          </div>
+        </div>
+        <div class="persona-card" id="persona-maria">
+          <div class="persona-emoji">👗</div>
+          <h3>Dona Maria</h3>
+          <p class="persona-desc">Barraca de roupas e calçados no camelódromo. Tem funcionário e precisa controlar quem vende o quê.</p>
+          <div class="persona-tags">
+            <span>Moda</span><span>Calçados</span><span>Bolsas</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PREÇO -->
+  <section class="section pricing" id="preco">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">Preço</div>
+        <h2>Simples como<br /><span class="gradient-text">deve ser</span></h2>
+        <p>Menos que um café por dia. Sem surpresas.</p>
+      </div>
+      <div class="pricing-grid">
+        <div class="pricing-card trial" id="plan-trial">
+          <div class="pricing-label">Comece Agora</div>
+          <div class="pricing-price"><span class="price-big">GRÁTIS</span></div>
+          <div class="pricing-period">por 90 dias completos</div>
+          <ul class="pricing-features">
+            <li>✅ Todas as funcionalidades</li>
+            <li>✅ Sem cartão de crédito</li>
+            <li>✅ Suporte pelo app</li>
+            <li>✅ Sem limite de produtos</li>
+          </ul>
+          <a href="#trial" id="btn-trial" class="btn btn-primary btn-full">Começar Grátis</a>
+        </div>
+        <div class="pricing-card pro" id="plan-pro">
+          <div class="pricing-badge">🔥 Mais Popular</div>
+          <div class="pricing-label">Após o Trial</div>
+          <div class="pricing-price">
+            <span class="price-currency">R$</span>
+            <span class="price-big">19</span>
+            <span class="price-cents">,90</span>
+          </div>
+          <div class="pricing-period">por mês no cartão</div>
+          <ul class="pricing-features">
+            <li>✅ Tudo do trial</li>
+            <li>✅ Relatórios avançados</li>
+            <li>✅ Gestão de funcionários</li>
+            <li>✅ Suporte prioritário</li>
+            <li>✅ Cancele quando quiser</li>
+          </ul>
+          <a href="#trial" id="btn-pro" class="btn btn-primary btn-full">Assinar Pro</a>
+          <p class="pricing-pix">Prefere Pix? R$ 22,90/mês</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEPOIMENTOS -->
+  <section class="section testimonials" id="depoimentos">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">Quem Já Usa</div>
+        <h2>Lojistas <span class="gradient-text">Fundadores</span></h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card" id="test-1">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p>"Nunca soube quanto lucrava de verdade. Agora sei que meu custo real era R$ 3 a mais por produto. Mudou tudo."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">SM</div>
+            <div>
+              <strong>Seu Manoel</strong>
+              <span>Pipocas • Fortaleza, CE</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card featured" id="test-2">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p>"O scanner de código de barras é demais. Antes levava 10 minutos pra dar entrada numa caixa. Agora são 2 minutos."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">JB</div>
+            <div>
+              <strong>Juninho B.</strong>
+              <span>Eletrônicos • São Paulo, SP</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card" id="test-3">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p>"O caderno de fiado digital salvou minha vida. R$ 840 que eu ia perder, agora eu cobro direto pelo app."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">DM</div>
+            <div>
+              <strong>Dona Maria</strong>
+              <span>Roupas • Recife, PE</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="section cta-final" id="trial">
+    <div class="container">
+      <div class="cta-box">
+        <div class="cta-glow"></div>
+        <div class="section-label">Comece Hoje</div>
+        <h2>Sua barraca merece<br /><span class="gradient-text">gestão profissional</span></h2>
+        <p>Junte-se aos Lojistas Fundadores e ganhe 90 dias grátis. Sem cartão, sem risco.</p>
+        <div class="store-buttons">
+          <a href="#" id="btn-appstore" class="store-btn" aria-label="Baixar na App Store">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+            <div>
+              <span class="store-sub">Baixar na</span>
+              <span class="store-name">App Store</span>
+            </div>
+          </a>
+          <a href="#" id="btn-playstore" class="store-btn" aria-label="Baixar no Google Play">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3.18 23.76c.35.19.74.24 1.15.14l12.48-7.21-2.8-2.78-10.83 9.85zm-1.1-1.37V1.61c0-.53.18-.95.53-1.25L13.84 12 2.61 23.14c-.35-.3-.53-.72-.53-1.75zM21.1 10.43l-2.5-1.44-3.15 3.01 3.15 3.01 2.53-1.46c.72-.42.72-1.7-.03-3.12zM4.33.1C4.74 0 5.13.05 5.48.24l12.5 7.22-2.8 2.78L4.33.1z"/></svg>
+            <div>
+              <span class="store-sub">Baixar no</span>
+              <span class="store-name">Google Play</span>
+            </div>
+          </a>
+        </div>
+        <p class="cta-fine">iOS e Android · Português Brasileiro · Suporte em PT-BR</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="assets/images/logo.png" alt="Camelô Pro" />
+        <span>Camelô Pro</span>
+      </div>
+      <div class="footer-links">
+        <a href="mailto:suporte@camelopro.com.br">suporte@camelopro.com.br</a>
+        <a href="#">Política de Privacidade</a>
+        <a href="#">Termos de Uso</a>
+      </div>
+      <p class="footer-copy">© 2026 Camelô Pro. Feito com ❤️ para o comércio de rua do Brasil.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
